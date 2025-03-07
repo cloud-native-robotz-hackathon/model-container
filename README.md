@@ -2,10 +2,11 @@
 
 ## Versions
 
-|Version|Description|
-|---|---|
-|1|CPU trained model, low amount of epoch and samples|
-|2|CPU trained model, high amount of epoch (113) and samples|
+|Version|Yolo|CPU or GPU|Epoch|batch_size|Sample images|Size of the Model om MB|
+|---|---|---|---|---|---|---|
+|1|yolov5n|CPU|?|?|?|?|8mb|
+|2|yolov5n|CPU|113|?|?|8mb|
+|3|yolov5m|CPU|2|4|?|?|80mb|
 
 ## Example population
 
