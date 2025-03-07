@@ -2,11 +2,11 @@
 
 ## Versions
 
-|Version|Yolo|CPU or GPU|Epoch|batch_size|Sample images|Size of the Model om MB|
+|Version|Yolo|CPU or GPU|Epoch|batch_size|Sample images|Size of the Model in MB|
 |---|---|---|---|---|---|---|
-|1|yolov5n|CPU|?|?|?|?|8mb|
-|2|yolov5n|CPU|113|?|?|8mb|
-|3|yolov5m|CPU|2|4|?|?|80mb|
+|1|yolov5n|CPU|?|?|?|8|
+|2|yolov5n|CPU|113|?|?|8|
+|3|yolov5m|CPU|2|4|?|80|
 
 ## Example population
 
