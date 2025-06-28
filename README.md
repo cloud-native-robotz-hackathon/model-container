@@ -2,11 +2,13 @@
 
 ## Versions
 
-|Version|Yolo|CPU or GPU|Epoch|batch_size|Sample images|Size of the Model in MB|
-|---|---|---|---|---|---|---|
-|1|yolov5n|CPU|?|?|?|8|
-|2|yolov5n|CPU|113|?|?|8|
-|3|yolov5m|CPU|2|4|?|80|
+| Version                   | Yolo    | CPU or GPU | Epoch | batch_size | Sample images | Size of the Model in MB |
+| ------------------------- | ------- | ---------- | ----- | ---------- | ------------- | ----------------------- |
+| 1                         | yolov5n | CPU        | ?     | ?          | ?             | 8                       |
+| 2                         | yolov5n | CPU        | 113   | ?          | ?             | 8                       |
+| 3                         | yolov5m | CPU        | 2     | 4          | ?             | 80                      |
+| custom-images             | yolov5n | CPU        | 300   | 64         | 100           | 7.5                     |
+| openimages-optimal-epochs | yolov5n | GPU        | 162   | 64         | 10000         | 7.1                     |
 
 ## Example population
 
@@ -50,4 +52,3 @@ podman manifest rm ${IMAGE}
 podman build --platform linux/amd64,linux/arm64  --manifest ${IMAGE}  .
 podman manifest push ${IMAGE}
 ```
-
