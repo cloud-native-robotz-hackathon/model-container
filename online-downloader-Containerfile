@@ -1,0 +1,8 @@
+FROM quay.io/cloud-native-robotz-hackathon/ubi-awscli:1.25.83
+
+ENV MODELS="yolov5n-robot-version-1.onnx unknown-robot-version-1.onnx"
+ENV MODEL_BASE_URL="https://github.com/cloud-native-robotz-hackathon/model-container/raw/refs/heads/main/model/"
+
+ADD online-upload.sh /
+
+ENTRYPOINT "/online-upload.sh"
